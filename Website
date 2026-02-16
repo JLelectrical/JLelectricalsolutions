@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JL Electrical | Electrician London & Surrey | Domestic Commercial Industrial</title>
+
+<meta name="description" content="JL Electrical provides professional domestic, commercial and industrial electrical services across London, Surrey and surrounding areas. Get a free quote today.">
+
+<meta name="keywords" content="Electrician London, Electrician Surrey, Domestic electrician, Commercial electrician, Industrial electrician, EICR, rewiring, electrical services">
+
+<meta name="author" content="JL Electrical">
+
+<!-- Open Graph (for social sharing) -->
+<meta property="og:title" content="JL Electrical">
+<meta property="og:description" content="Professional electrical services across London & Surrey">
+<meta property="og:type" content="website">
+
+<style>
+:root {
+    --primary: #1f3a6d;
+    --accent: #4bb3e6;
+    --bg: #f4f7fb;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: #333;
+}
+
+/* Header */
+header {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid var(--accent);
+}
+
+header img {
+    max-width: 170px;
+}
+
+nav {
+    background: var(--primary);
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(135deg, var(--primary), #2c528c);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 34px;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    color: var(--primary);
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border-top: 4px solid var(--accent);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+footer {
+    background: #0e223f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.jpg" alt="JL Electrical Logo">
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#areas">Areas</a>
+    <a href="#quote">Quote</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Electrician in London & Surrey</h1>
+    <p>Domestic • Commercial • Industrial Electrical Specialists</p>
+</section>
+
+<section id="services" class="section">
+    <h2>Professional Electrical Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Domestic Electrical Services</h3>
+            <p>Rewires, fuse boards, lighting upgrades, EV chargers and repairs.</p>
+        </div>
+        <div class="card">
+            <h3>Commercial Electrical Services</h3>
+            <p>Office installations, maintenance contracts and safety testing.</p>
+        </div>
+        <div class="card">
+            <h3>Industrial Electrical Services</h3>
+            <p>Power distribution, machinery wiring and fault diagnostics.</p>
+        </div>
+        <div class="card">
+            <h3>EICR & Electrical Testing</h3>
+            <p>Landlord certificates, inspections and compliance reports.</p>
+        </div>
+    </div>
+</section>
+
+<section id="areas" class="section">
+    <h2>Areas We Cover</h2>
+    <p>
+        JL Electrical provides trusted electrical services across 
+        <strong>London, Surrey and surrounding areas</strong>.  
+        Contact us to confirm availability in your location.
+    </p>
+</section>
+
+<section id="quote" class="section">
+    <h2>Request a Free Quote</h2>
+
+    <!-- Replace YOUR_FORM_ID with Formspree ID -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+
+        <select name="service">
+            <option>Domestic</option>
+            <option>Commercial</option>
+            <option>Industrial</option>
+            <option>EICR / Testing</option>
+        </select>
+
+        <textarea name="message" rows="5" placeholder="Tell us about the job" required></textarea>
+
+        <button type="submit">Send Quote Request</button>
+    </form>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact JL Electrical</h2>
+    <p>Email: JLelectricalsolutions@hotmail.com</p>
+    <p>Serving London & Surrey</p>
+</section>
+
+<footer>
+    <p>© 2026 JL Electrical — All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
